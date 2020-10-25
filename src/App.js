@@ -1,16 +1,13 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import './App.css';
-import ValueContext from './ValueContext.js';
 import Parent from './Parent.js';
 
 function App() {
   return (
-    <ValueContext.Provider >
      <div>
       App
       <Parent/>
       </div>  
-     </ValueContext.Provider>
 
   );
 }
