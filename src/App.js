@@ -5,7 +5,7 @@ import Parent from './Parent.js';
 
 function App() {
   return (
-    <ValueContext.Provider value={value}>
+    <ValueContext.Provider >
      <div>
       App
       <Parent/>
