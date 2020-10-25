@@ -7,6 +7,5 @@ const numberReducer = (state, action) => {
     }
 };
 
-export default numberReducer;
 
 

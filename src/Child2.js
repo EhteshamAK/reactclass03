@@ -1,5 +1,4 @@
-import React, { useContext, useReducer} from 'react';
-import ValueContext from './ValueContext.js';
+import React, { useReducer} from 'react';
 import numberReducer from  './NumberReducer.js';
 
 function Child2() {
