@@ -3,7 +3,6 @@ import ValueContext from './ValueContext.js';
 import numberReducer from  './NumberReducer.js';
 
 function Child2() {
-    let value = useContext(ValueContext);
     let [state, dispatch] = useReducer(numberReducer, 50);
   return (
   <div>
